@@ -7,8 +7,16 @@
         <entry key="..\:/Android/Notes/app/src/main/res/layout-land/activity_main.xml" value="0.16927083333333334" />
         <entry key="..\:/Android/Notes/app/src/main/res/layout-land/fragment_note.xml" value="0.16927083333333334" />
         <entry key="..\:/Android/Notes/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Android/Notes/app/src/main/res/layout/drawer_header.xml" value="0.2" />
+        <entry key="..\:/Android/Notes/app/src/main/res/layout/fragment_about.xml" value="0.24210526315789474" />
         <entry key="..\:/Android/Notes/app/src/main/res/layout/fragment_note.xml" value="0.24010416666666667" />
         <entry key="..\:/Android/Notes/app/src/main/res/layout/fragment_notes.xml" value="0.16" />
+        <entry key="..\:/Android/Notes/app/src/main/res/layout/my_toast_layout.xml" value="0.264" />
+        <entry key="..\:/Android/Notes/app/src/main/res/menu/menu.xml" value="0.264" />
+        <entry key="..\:/Android/Notes/app/src/main/res/menu/menu_drawer.xml" value="0.264" />
+        <entry key="..\:/Android/Notes/app/src/main/res/menu/note_menu.xml" value="0.1638888888888889" />
+        <entry key="..\:/Android/Notes/app/src/main/res/menu/notes_popup.xml" value="0.16" />
+        <entry key="..\:/Android/Notes/app/src/main/res/menu/popup.xml" value="0.1638888888888889" />
       </map>
     </option>
   </component>
