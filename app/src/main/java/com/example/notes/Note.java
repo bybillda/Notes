@@ -1,19 +1,17 @@
 package com.example.notes;
 
 import android.annotation.SuppressLint;
-import android.os.Build;
 import android.os.Parcel;
 import android.os.Parcelable;
 
-import androidx.annotation.RequiresApi;
-
 import java.io.Serializable;
 import java.time.LocalDateTime;
+import java.util.ArrayList;
 import java.util.Random;
 
 public class Note implements /*Serializable*/ Parcelable {
     private static final Random random = new Random();
-    private static Note[] notes;
+    private static ArrayList<Note> notes;
 
     private static int counter;
 
@@ -38,7 +36,7 @@ public class Note implements /*Serializable*/ Parcelable {
         return id;
     }
 
-    public static Note[] getNotes() {
+    public static ArrayList<Note> getNotes() {
         return notes;
     }
 
@@ -59,9 +57,9 @@ public class Note implements /*Serializable*/ Parcelable {
     }
 
     static {
-        notes = new Note[10];
-        for (int i = 0; i < notes.length; i++) {
-            notes[i] = Note.getNote(i);
+        notes = new ArrayList<>();
+        for (int i = 0; i < 12; i++) {
+            notes.add(Note.getNote(i));
         }
     }
 
@@ -70,6 +68,7 @@ public class Note implements /*Serializable*/ Parcelable {
         this.description = description;
         this.creationDate = creationDate;
     }
+
 
     @SuppressLint("DefaultLocale")
     public static Note getNote(int index) {
